@@ -1,0 +1,38 @@
+id,name,email,address,phone_number,password,patient_photo,createdAt,updatedAt,psychiatristId
+1,"Patient 1 - Psychiatrist 1",patient1@example.com,"Address 1",+12345678901,Pass1234,photo1.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",1
+2,"Patient 2 - Psychiatrist 1",patient2@example.com,"Address 2",+12345678902,Pass5678,photo2.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",1
+3,"Patient 3 - Psychiatrist 1",patient3@example.com,"Address 3",+12345678903,Passabcd,photo3.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",1
+4,"Patient 4 - Psychiatrist 2",patient4@example.com,"Address 4",+12345678904,Pass1234,photo4.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",2
+5,"Patient 5 - Psychiatrist 2",patient5@example.com,"Address 5",+12345678905,Pass5678,photo5.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",2
+6,"Patient 6 - Psychiatrist 2",patient6@example.com,"Address 6",+12345678906,Passabcd,photo6.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",2
+7,"Patient 7 - Psychiatrist 3",patient7@example.com,"Address 7",+12345678907,Pass1234,photo7.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",8
+8,"Patient 8 - Psychiatrist 3",patient8@example.com,"Address 8",+12345678908,Pass5678,photo8.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",8
+9,"Patient 9 - Psychiatrist 3",patient9@example.com,"Address 9",+12345678909,Passabcd,photo9.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",8
+10,"Patient 10 - Psychiatrist 4",patient10@example.com,"Address 10",+12345678910,Pass1234,photo10.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",9
+11,"Patient 11 - Psychiatrist 4",patient11@example.com,"Address 11",+12345678911,Pass5678,photo11.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",9
+12,"Patient 12 - Psychiatrist 4",patient12@example.com,"Address 12",+12345678912,Passabcd,photo12.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",9
+13,"Patient 13 - Psychiatrist 5",patient13@example.com,"Address 13",+12345678913,Pass1234,photo13.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",15
+14,"Patient 14 - Psychiatrist 5",patient14@example.com,"Address 14",+12345678914,Pass5678,photo14.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",15
+15,"Patient 15 - Psychiatrist 5",patient15@example.com,"Address 15",+12345678915,Passabcd,photo15.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",15
+16,"Patient 16 - Psychiatrist 1",patient16@example.com,"Address 16",+12345678916,Pass1234,photo16.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",11
+17,"Patient 17 - Psychiatrist 1",patient17@example.com,"Address 17",+12345678917,Pass5678,photo17.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",11
+18,"Patient 18 - Psychiatrist 1",patient18@example.com,"Address 18",+12345678918,Passabcd,photo18.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",11
+19,"Patient 19 - Psychiatrist 2",patient19@example.com,"Address 19",+12345678919,Pass1234,photo19.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",17
+20,"Patient 20 - Psychiatrist 2",patient20@example.com,"Address 20",+12345678920,Pass5678,photo20.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",17
+21,"Patient 21 - Psychiatrist 2",patient21@example.com,"Address 21",+12345678921,Passabcd,photo21.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",17
+22,"Patient 22 - Psychiatrist 3",patient22@example.com,"Address 22",+12345678922,Pass1234,photo22.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",18
+23,"Patient 23 - Psychiatrist 3",patient23@example.com,"Address 23",+12345678923,Pass5678,photo23.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",18
+24,"Patient 24 - Psychiatrist 3",patient24@example.com,"Address 24",+12345678924,Passabcd,photo24.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",18
+25,"Patient 25 - Psychiatrist 4",patient25@example.com,"Address 25",+12345678925,Pass1234,photo25.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",4
+26,"Patient 26 - Psychiatrist 4",patient26@example.com,"Address 26",+12345678926,Pass5678,photo26.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",4
+27,"Patient 27 - Psychiatrist 4",patient27@example.com,"Address 27",+12345678927,Passabcd,photo27.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",4
+28,"Patient 28 - Psychiatrist 5",patient28@example.com,"Address 28",+12345678928,Pass1234,photo28.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",10
+29,"Patient 29 - Psychiatrist 5",patient29@example.com,"Address 29",+12345678929,Pass5678,photo29.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",10
+30,"Patient 30 - Psychiatrist 5",patient30@example.com,"Address 30",+12345678930,Passabcd,photo30.jpg,"2024-01-16 16:49:31","2024-01-16 16:49:31",10
+31,"John Doe",john.doe@example.com,"123 Main Street, City",+12345678901,$2a$12$o7If4lPUQBRA2GpoW1FVzu0qoWAzmgbW3M0qZXQSz8oLOdQVd5Vqe,base64_encoded_image_data,"2024-01-16 11:19:44","2024-01-16 11:19:44",20
+32,"Rohit Kumar",john@gmail.com,"New delhi, India",+12345678901,$2a$12$WK/2r41XUK9hO8ExDBhnpeLsA7u7ShKUqA26al/6EfDTPVpzHuJQe,base64_encoded_image_data,"2024-01-16 11:21:41","2024-01-16 11:21:41",18
+33,"Rohit Kumar",joh@gmail.com,"New delhi, India",+12345678901,$2a$12$Now.VM/5POAdFJ07tfph2OxuCB7x7lrsWa561nwFM6Tdaou7K5ye2,base64_encoded_image_data,"2024-01-16 11:22:51","2024-01-16 11:22:51",16
+34,"Rohit Kumar",jo@gmail.com,"New delhi, India",+12345678901,$2a$12$sZ.0YylEE3BKwuIaXT3D6eWZVsZgpEFj6H3tHfT1lVaH6nC5Lkk7G,base64_encoded_image_data,"2024-01-16 11:23:42","2024-01-16 11:23:42",7
+35,"Mohit Kumar",rohit@gmail.com,"New delhi, India",+12345678901,$2a$12$BlW7QRCWI1K8BXuAvAttSueR9TZ6dOu.zrovDoxmi2QTlWDSo9DP2,base64_encoded_image_data,"2024-01-16 13:08:40","2024-01-16 13:08:40",3
+36,"Rohit Kumar",rohitkumar@gmail.com,"New delhi, India",+12345678901,$2a$12$Qu01PeV5tANbFDZDLwr7w.2e84rPGXFC4ttoPz7/kSN8RjsTOz26.,base64_encoded_image_data,"2024-01-16 16:29:07","2024-01-16 16:29:07",7
+37,"Rohit Kumar",rohitkr@gmail.com,"New delhi, India",+12,$2a$12$Sfa83S1sRZADuvdy68JQ1.MwlQbPnhxmTAZLsq6j18/EmHvUBKVCW,base64_encoded_image_data,"2024-01-16 16:46:41","2024-01-16 16:46:41",16

@@ -7,10 +7,10 @@ const Patient = require('../models/patient');
 
 const router = express.Router();
 
+//GET: welcome page
 router.get('/', hospitalController.getHospital);
 
-router.post('/:hospitalId', hospitalController.getHospitalById);
-
+//POST: patient registration
 router.post(
     '/registration',
     [
@@ -42,6 +42,7 @@ router.post(
             }),
 
         body('phone_number')
+            .isLength({ min: 12, max: 20 })
             .matches(/^\+[1-9]\d{1,14}$/)
             .withMessage('Please enter a valid phone number with country code.'),
 
@@ -58,5 +59,7 @@ router.post(
     authController.registration
 );
 
+//POST : fetch details of hospitals
+router.post('/:hospitalId', hospitalController.getHospitalById);
 
 module.exports = router;
