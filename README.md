@@ -35,8 +35,8 @@ This project is a Node.js application with MySQL database integration for managi
    - Controller Method: `hospitalController.getHospitalById`
 
 ## Database
-- Database Dump: [database folder](link-to-your-database-dump)
-- Database Schema with Data: [database schema file](link-to-your-database-schema)
+- Database Dump: [database folder](/db_dump)
+
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/Rohitkr2510/NodesMySQL`
