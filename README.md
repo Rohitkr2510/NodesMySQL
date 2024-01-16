@@ -1,4 +1,4 @@
-**Project: nodesmysql**
+# Project: nodesmysql
 
 ## Description
 This project is a Node.js application with MySQL database integration for managing hospital and patient information. It provides API endpoints for patient registration, fetching hospital details, and more.
@@ -37,16 +37,21 @@ This project is a Node.js application with MySQL database integration for managi
 ## Database
 - Database Dump: [database folder](/db_dump)
 
+### Hospital and Psychiatrist Details
+- 4 hospitals added with corresponding details.
+- 5 psychiatrists associated with each hospital.
+
+### Patients
+- 30 patients randomly generated.
+- Upon creating a new patient, a random psychiatrist is associated with them.
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/Rohitkr2510/NodesMySQL`
 2. Install dependencies: `npm install`
 3. Set up your environment variables by creating a `.env` file.
 4. Start the server: `npm start`
-   
+
 ## Postman Collection
 - Hospital Api: [Link](https://elements.getpostman.com/redirect?entityId=32368280-0d67afc3-359b-4b04-90c1-ae901db7be5a&entityType=collection)
-
-
 
 Feel free to explore the codebase, test the API endpoints using Postman or Swagger, and review the database structure. If you have any questions or issues, please don't hesitate to contact.
