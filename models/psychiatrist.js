@@ -9,7 +9,7 @@ const Psychiatrist = sequelize.define('psychiatrist', {
         allowNull: false,
         primaryKey: true
     },
-    psychiatrist_name: {
+    name: {
         type: Sequelize.STRING,
         allowNull: false
     },

@@ -29,8 +29,8 @@ Psychiatrist.hasMany(Patient);
 Patient.belongsTo(Psychiatrist);
 
 sequelize
-    .sync({force: true})
-    // .sync()
+    // .sync({force: true})
+    .sync()
     .then(result => {
         console.log("Server is running");
         app.listen(3000);

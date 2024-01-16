@@ -9,7 +9,7 @@ const Hospital = sequelize.define('hospital', {
         allowNull: false,
         primaryKey: true
     },
-    hospital_name: {
+    name: {
         type: Sequelize.STRING,
         allowNull: false
     },

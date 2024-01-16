@@ -9,6 +9,7 @@ const router = express.Router();
 
 router.get('/', hospitalController.getHospital);
 
+router.post('/:hospitalId', hospitalController.getHospitalById);
 
 router.post(
     '/registration',

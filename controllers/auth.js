@@ -22,18 +22,19 @@ exports.registration = async (req, res, next) => {
         const hashedPw = await bcrypt
             .hash(password, 12)
 
-        const patient = Patient.create({
+        const patient =await Patient.create({
             email: email,
             password: hashedPw,
-            patient_name: name,
+            name: name,
             address: address,
             phone_number: phone_number,
-            patient_photo: patient_photo
+            patient_photo: patient_photo,
+            psychiatristId:  Math.floor(Math.random() * 20) + 1
         })
         
         res.status(201).json({
             message: 'User created!',
-            patientId: patient.id
+            patient: patient
         })
     } catch (err) {
         if (!err.statusCode) {
